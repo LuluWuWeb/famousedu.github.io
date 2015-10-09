@@ -2,7 +2,44 @@
   color: white;
 }
 .navbar-brand{
+  height: 100px;
   img{
     height: 70px;
   }
 }
+.nav{
+  >li>a{
+    background: none;
+  }
+  &.navbar-nav{
+    >li>a{
+      color: #fff;
+      font-size: 19px;
+      line-height: 70px;
+      &:hover{
+        color:#881632;
+        background: none;
+      }
+    }
+  }
+}
+.navbar-brand-text{
+  line-height: 70px;
+  padding:15px 15px 15px 0;
+  span,i{
+    display: block;
+    color: #fff;
+    line-height: 20px;
+  }
+  span{
+    margin-top:12px;
+    margin-bottom: 3px;
+    font-size: 18px;
+  }
+  i{
+    margin-top:3px;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+}
+
