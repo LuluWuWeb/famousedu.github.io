@@ -10,7 +10,7 @@ main() {
 	default_email=${GIT_DEPLOY_EMAIL:-894147172@qq.com}
 
 	#repository to deploy to. must be readable and writable.
-	repo=${GIT_DEPLOY_REPO:-origin}
+	repo=${GIT_DEPLOY_REPO:-https://$GITHUB_TOKEN@github.com/famousedu/famousedu.git}
 
 	# Parse arg flags
 	while : ; do
