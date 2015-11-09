@@ -1,2 +1,38 @@
+$white :#fff;
+$opacityWhite:      rgba(255,255,255,0.7);
+$blue:#881632;
+$black:#000;
+//navbar-default
+$navbar-default-bg:               $blue;
+$navbar-default-link-color:       $opacityWhite;
+$navbar-default-link-hover-color: $white;
+$navbar-default-link-hover-bg:    $white;
+$navbar-default-link-hover-border:$white;
+$navbar-default-link-active-color:$white;
+$navbar-default-link-active-border:$white;
+
+//navbar-default
+$navbar-default-bule-bg:               $white;
+$navbar-default-blue-link-color:       $black;
+$navbar-default-blue-link-hover-color: $blue;
+$navbar-default-blue-link-hover-bg:    $white;
+$navbar-default-blue-link-hover-border:$blue;
+$navbar-default-blue-link-active-color:$blue;
+$navbar-default-blue-link-active-border:$blue;
+
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           $white;
+$navbar-default-toggle-icon-bar-bg:        $white;
+$navbar-default-toggle-border-color:       $white;
+$navbar-default-toggle-hover-border-color: $blue;
+$navbar-default-toggle-icon-bar-hover-bg:  $blue;
+
+// Navbar blue toggle
+$navbar-default-blue-toggle-hover-bg:           $blue;
+$navbar-default-blue-toggle-icon-bar-bg:        $blue;
+$navbar-default-blue-toggle-border-color:       $blue;
+$navbar-default-blue-toggle-hover-border-color: $white;
+$navbar-default-blue-toggle-icon-bar-hover-bg:  $white;
 *{margin: 0;padding: 0;box-sizing: border-box;}
 span,i{font-style: normal;}
